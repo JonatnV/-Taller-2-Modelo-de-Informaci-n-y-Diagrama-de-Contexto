@@ -9,25 +9,21 @@ _Taller 2 - Modelo de Información y Diagrama de Contexto_
 - Jhojan Camilo Jiménez Amaya
 
 ## 🧠 Descripción general del trabajo
-Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
+El objetivo era en base a la información del funcionamiento de la empresa y la operación que se esta trabajando, realizar el modelado y diagrama de entiedad-relación, esto se hizo usando el BPMN realizado anteriormente junto a la información que nos fue provista.
 
 ## 🔧 Proceso de desarrollo
-Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
+Se tomo del proceso, las entidades que identificamos que participan en el proceso las cuales fueron, Cotizaciones, Clientes, Ventas, Despachos y Facturas,
+posteriormente en el modelado se fue trazando las relaciones en el diagrama entidad y relación y se encontro una relación de muchos a muchos entre Cotizaciónes y productos, debido a la naturaleza de estas, por ello se definio la entidad Detalles_Cotizaciones, para tener todos los productos que hacen parte de una cotización junto su cantidad y otros detalles necesarios. Posteriormente se uso de base el BPMN y el ERD, para realizar el modelo entidad relación, con el cual se valido efectivamente las relaciones entre las entidades identificadas, quedando como se ve en el modelo y diagrama final
 
 ## 🧩 Análisis del modelo propuesto
-Incluya un análisis sobre:
-- Cómo se estructura el modelo entregado
-- Cómo representa las necesidades del cliente
-- Qué supuestos se tomaron
+El modelo entregado son dos, uno corresponde al diagrama y otro al modelo entidad relación, los cuales muestran la información que requiere el proceso de la cotización, junto a un par de supuestos como lo son parcialmente las estrucutras de los datos de cada entidad debido a que puede estar de una forma similar o diferente o algunos datos contenidos por separado, pero funcionalmente se identifico de esta forma.
 
 ## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
 
-## 📋 Tabla de actores, entidades o componentes (si aplica)
+![WhatsApp Image 2026-02-27 at 8 32 53 PM](https://github.com/user-attachments/assets/798d680a-508c-4de3-a381-711a169a9f53)
 
-| Nombre del elemento | Tipo | Descripción | Responsable |
-|---------------------|------|-------------|-------------|
-| Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
+![WhatsApp Image 2026-02-27 at 9 28 12 PM](https://github.com/user-attachments/assets/78a2646f-a6fd-409a-b3ff-003dc2f7f91b)
+
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:
